@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
 
 import { ChatPage } from '../pages/chat/chat';
 import { RegistrationPage } from '../pages/registration/registration';
@@ -15,7 +14,7 @@ import { TabsPage } from '../pages/tabs/tabs';
   declarations: [
     MyApp,
 
-    AboutPage,
+  
 
     ChatPage,
     RegistrationPage,
@@ -30,7 +29,7 @@ import { TabsPage } from '../pages/tabs/tabs';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
+   
 
     ChatPage,
     RegistrationPage,
